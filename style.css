@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-decoration: underline;
+  font-style: italic;
+  color: whitesmoke;
+  font-size: 60px;
+}
+body {
+  background: #536976; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #292e49,
+    #536976
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #292e49,
+    #536976
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+}
+.container {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: 5px solid rgb(47, 42, 80);
+  box-shadow: 0 0 1rem rgba(110, 107, 107, 0.378);
+  font-size: 8vmin;
+  color: rgb(123, 29, 65);
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+#reset-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background: #dfe5e9;
+  border-radius: 1rem;
+  font-weight: bold;
+  border: 3px solid rgb(47, 42, 80);
+  cursor: pointer;
+}
+#new-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background: #dfe5e9;
+  border-radius: 1rem;
+  font-weight: bold;
+  border: 3px solid rgb(47, 42, 80);
+  cursor: pointer;
+}
+p {
+  color: whitesmoke;
+  font-size: 40px;
+}
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+.hide {
+  display: none;
+}
